@@ -141,6 +141,7 @@ body {
     font-size: 50px;
     height: 13px;
     width: 13px;
+    margin-left: -12px;
     border-radius: 10px;
     color: #EEEEEE;
     background: #222831;
