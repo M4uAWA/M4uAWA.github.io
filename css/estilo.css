@@ -137,6 +137,9 @@ body {
   background: #222831;
   margin-top: 320px;
   cursor: pointer;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .right-arrow {
@@ -150,6 +153,9 @@ body {
   background: #222831;
   margin-top: 38px;
   cursor: pointer;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .left-arrow:focus {
@@ -168,20 +174,42 @@ body {
 
 .cardFrame {
   height: 75%;
-  padding: 5px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 .pdf {
   border: 4px inset #31363F;
 }
 
-.description{
+.description {
+  font-size: 14px;
   width: 50%;
   margin: auto;
-  text-align: center;
+  text-align: justify;
+  text-justify: auto;
+  padding-right: 7%;
 }
 
-/* From Uiverse.io by vinodjangid07 */ 
+
+a.link:link {
+  color: #aea1cf;
+  text-decoration: none;
+}
+
+a.link:visited {
+  color: #aea1cf;
+  text-decoration: none;
+}
+
+a.link:active {
+  color: #aea1cf;
+  text-decoration: none;
+}
+
+
+/* From Uiverse.io by vinodjangid07 */
 .Btn {
   margin-top: 6px;
   width: 50px;
